@@ -1,7 +1,7 @@
 #!/bin/bash
 
-REPO_URL="https://raw.githubusercontent.com/Akvityxs/iptables-ip-blocking-script/main/banned_ips.txt"
-UREPO_URL="https://raw.githubusercontent.com/Akvityxs/iptables-ip-blocking-script/main/unbanned_ips.txt"
+REPO_URL="https://raw.githubusercontent.com/aksueikava/iptables-ip-blocking-script/main/banned_ips.txt"
+UREPO_URL="https://raw.githubusercontent.com/aksueikava/iptables-ip-blocking-script/main/unbanned_ips.txt"
 
 IPS=$(curl -s "$REPO_URL")
 UIPS=$(curl -s "$UREPO_URL")
